@@ -12,13 +12,13 @@
 <nav id="nav">
 <ul>
 <li style="background: rgb(20 20 20); border-top: 3px solid rgb(0 0 199); border-bottom: 3px solid rgb(0 0 199);" ><a style="color: white;" href="Home.html">Home</a></li>
-<li><a href="About us.html">About us</a></li>
-<li><a href="Education.html">Education</a></li>
-<li><a href="Work Experience.html">Work experience</a></li>
-<li><a href="Link friends.html">Link friends</a></li>
-<li><a href="New user.html">New user</a></li>
-<li><a href="Search.html">Search</a></li>
-<li><a href="Contact us.html">Contact us</a></li>
+<li><a href="https://darkbybyte.github.io/HijahWebsite/About us.html">About us</a></li>
+<li><a href="https://darkbybyte.github.io/HijahWebsite/Education.html">Education</a></li>
+<li><a href="https://darkbybyte.github.io/HijahWebsite/Work Experience.html">Work experience</a></li>
+<li><a href="https://darkbybyte.github.io/HijahWebsite/Link friends.html">Link friends</a></li>
+<li><a href="https://darkbybyte.github.io/HijahWebsite/New user.html">New user</a></li>
+<li><a href="https://darkbybyte.github.io/HijahWebsite/Search.html">Search</a></li>
+<li><a href="https://darkbybyte.github.io/HijahWebsite/Contact us.html">Contact us</a></li>
 </nav>
 
 <section id="section">
