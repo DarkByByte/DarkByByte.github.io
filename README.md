@@ -1,7 +1,9 @@
 <html>
   <head>
     <style>
-    background: green;
+      body {
+        background: green;
+      }
     </style>
   </head>
   <body>
