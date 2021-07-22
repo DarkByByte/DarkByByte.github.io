@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="main.css">
+<title>Link Friends</title>
+</head>
+
+<body>
+<div id="pg_wr">
+<div id="header">
+<img src="website-banner.gif"/>
+</div>
+
+<div id="nav">
+
+<ul>
+<li style="background: rgb(20 20 20); width: 62px;"><a style="color: white;" href="homepage.html">Home</a></li>
+<li><a href="about us.html">About me</a></li>
+<li><a href="education.html">Education</a></li>
+<li><a href="work experience.html">Work Experience</a></li>
+<li><a href="link friends.html" style="color: white; background: rgb(20 20 20);">Link Friends</a></li>
+<li><a href="new user.html">New User</a></li>
+<li><a href="search.html">Search</a></li>
+<li><a href="contact us.html">Contact me</a></li>
+</ul>
+
+</div>
+
+
+<div id="section">
+
+<script type="text/javascript">
+
+function formValidator(){
+// Make quick references to our fields
+var password = document.getElementById('password');
+var username = document.getElementById('user');
+
+function notEmpty(elem, helperMsg){
+
+	if(elem.value.length == 0){
+		alert(helperMsg);
+		elem.focus(); // set the focus to this input
+	return false;
+}
+	return true;
+}
+
+
+function isAlphanumeric(elem, helperMsg){
+var alphaExp = /^[0-9a-zA-Z]+$/;
+
+	if(elem.value.match(alphaExp)){
+	return true;
+	}else{
+		alert(helperMsg);
+		elem.focus();
+	return false;
+	}
+}
+
+function lengthRestriction(elem, min, max){
+var uInput = elem.value;
+	if(uInput.length >= min && uInput.length <= max){
+	
+	return true;
+	}else{
+		alert("Please enter between " +min+ " and " +max+ " characters");
+		elem.focus();
+		return false;
+	}
+}
+
+// Check each input in the order that it appears in the form!
+
+if(notEmpty(username,"Please fill in the information required.")) {
+	if(notEmpty(password,"Please fill in the information required.")) {
+		if(isAlphanumeric(username, "Numbers and Letters Only for Username")) {
+			if(isAlphanumeric(password, "Numbers and Letters Only for Password")) {
+				if(lengthRestriction(username, 6, 9)){
+					if(lengthRestriction(password, 6, 11)) {
+						return true;
+					}
+				}
+			}
+		}
+	}
+	return false;
+}
+}
+
+
+</script>
+
+<h1 style="color:text-align: center; margin-bottom: " >Login Link Friends</h1>
+<form autocomplete="off" onsubmit="return formValidator()">
+    <label for="username">Username</label>
+    <input type="text" id="user" name="username" placeholder="Username">
+
+    <label for="lname">Password</label>
+    <input type="password" id="password" name="password" placeholder="Password">
+  
+    <input type="button" class="button" value="New User" onclick="location.href = 'new user.html';">
+	<input type="submit" class="button" value="Submit">
+	<input type="button" class="button" value="Cancel" >
+  </form>
+
+  
+</div>
+
+<div id="footer">
+<p id="copyright" style="text-align: center;">Copyright © Javon Prince's Website 2018</p>
+</div>
+</div>
+</body>
+</html>
