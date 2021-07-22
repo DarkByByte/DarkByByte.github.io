@@ -1,9 +1,6 @@
 <html>
   <head>
     <style>
-      body {
-        background: green;
-      }
     </style>
   </head>
   <body>
