@@ -8,14 +8,13 @@ body {
   font-family: Arial;
   /*padding: 10px;*/
   /*background: #f1f1f1;*/
-  background: rgb(20,20,20);
+  background: rgb(15,15,15);
 }
 
 /* Header/Blog Title */
 .header {
- /* padding: 30px; */
-  text-align: center;
-  /*background: white;*/
+ /*padding: 30px;*/
+ /*background: white;*/
   background: rgb(15,15,15);
   /*New font color is white*/
   color: white;
@@ -24,9 +23,6 @@ body {
 
 .header img{
 	float: left;
-	width: 100px;
-	height: 95px;
-	border: 5px dashed black;
 }
 
 .header h1 {
@@ -36,8 +32,11 @@ body {
 /* Style the top navigation bar */
 .topnav {
   /*background-color: #333;*/
-  background: rgb(40,40,40);
+  
+  background: rgb(20,20,20);
   text-align: center;
+  border-top: 3px solid black;
+  border-bottom: 2px solid black;
 }
 
 /* Style the topnav links */
@@ -54,11 +53,11 @@ body {
 .topnav ul { 
     text-align: center;
     text-decoration: none;
-	padding: 6px;
+	padding: 5px;
 }
 
 .topnav li {
-	background: rgb(40,40,40);
+	
     text-align: center;
     display: inline;
     list-style: none;
@@ -67,7 +66,7 @@ body {
 
 .topnav li:hover {
 	border-bottom: 2px solid rgb(0,255,000);
-	background: rgb(50,50,50);
+	background: black/*rgb(50,50,50)*/;
 }
 
 
