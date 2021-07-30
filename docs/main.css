@@ -21,6 +21,9 @@ body {
   color: white;
   height: 95px;
 }
+#Plogos{
+	float:right; margin-right: 25px; margin-top:20px; width: 40px; height:40px;
+}
 
 .header img{
 	float: left;
@@ -28,6 +31,9 @@ body {
 
 .header h1 {
   font-size: 50px;
+}
+.header p {
+  font-size: 12px;
 }
 
 /* Style the top navigation bar */
@@ -58,7 +64,6 @@ body {
 }
 
 .topnav li {
-	
     text-align: center;
     display: inline;
     list-style: none;
@@ -115,13 +120,21 @@ body {
 .cardleft{
   background: rgb(15,15,15);
   padding: 20px;
-  width: 950px;
   margin-top: 20px;
-  margin-left: 90px;
+  margin-left: 120px;
+  margin-right: 120px;
+  border-radius: 10px;
+}
+
+.cardleft h2, h5{
+	color: orange;
+}
+.card h2, h5, h3{
+	color: orange;
 }
 
 /* Clear floats after the columns */
-.row:after {
+.row::after {
   content: "";
   display: table;
   clear: both;
@@ -131,6 +144,7 @@ body {
 .footer {
   padding: 20px;
   text-align: center;
+  width: 100%;
   /*background: #ddd;*/
   background: rgb(15,15,15);
   margin-top: 20px;
@@ -146,7 +160,7 @@ body {
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
-  .topnav a {
+  .topnav li {
     float: none;
     width: 100%;
   }
