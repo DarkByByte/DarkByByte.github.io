@@ -14,13 +14,9 @@ body {
 
 /* Header/Blog Title */
 .header {
- /*padding: 30px;*/
- /*background: white;*/
   background: rgb(15,15,15);
-  /*New font color is white*/
-  color: white;
+  color: orange;
   height: 95px;
-  overflow: hidden;	
 }
 #Plogos{
 	float:right; margin-right: 25px; margin-top:20px; width: 40px; height:40px;
@@ -39,8 +35,6 @@ body {
 
 /* Style the top navigation bar */
 .topnav {
-  /*background-color: #333;*/
-  
   background: rgb(20,20,20);
   text-align: center;
   border-top: 3px solid black;
@@ -59,16 +53,13 @@ body {
 }
 
 .topnav ul { 
-    text-align: center;
-    text-decoration: none;
-	padding: 5px;
+    padding: 5px;
+    list-style-type: none;
 }
 
 .topnav li {
-    text-align: center;
     display: inline;
-    list-style: none;
-	padding: 6px;
+    padding: 6px;   
 }
 
 .topnav li:hover {
@@ -176,12 +167,29 @@ body {
     width: 100%;
     padding: 0;
   }
+
+.header{
+   height: auto;
+}
+  .header img{
+  float: none;
+  width: 100%;
+
+}
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
+  .header{
+   height: auto;
+}
+  .header img{
+  float: none;
+  width: 100%;
+
+}
   .topnav a {
 	float: none;
-	 width: 100%;
-	}
+	width: 100%;
+}
 }
