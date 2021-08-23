@@ -20,6 +20,7 @@ body {
   /*New font color is white*/
   color: white;
   height: 95px;
+  overflow: hidden;	
 }
 #Plogos{
 	float:right; margin-right: 25px; margin-top:20px; width: 40px; height:40px;
