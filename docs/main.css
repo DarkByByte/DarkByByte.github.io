@@ -214,6 +214,10 @@ margin-right: 12px; width: auto; height: 95px;
 max-width: 100%;
 }
 
+.cardprojects img{
+max-width: 100%;
+}
+
 #selfie{
 max-width: 100%;
 }
