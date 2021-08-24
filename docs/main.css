@@ -21,11 +21,15 @@ body {
 #JP{
  font-size: 250%;
 }
-#Plogos{
-	float:right; margin-right: 25px; margin-top:20px; width: 40px; height:40px;
+.headerlogos{
+float:right;
+margin-right: 25px; 
+margin-top:20px; 
+width: 40px;
+ height:40px;
 }
 
-.header img{
+#mainlogo{
 	float: left;
 }
 
@@ -165,6 +169,13 @@ body {
   margin-top: 20px;
 }
 
+@media screen and (min-width: 800px){
+#mainlogo{
+margin-right: 12px; width: auto; height: 95px;
+}
+
+}
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
@@ -174,10 +185,6 @@ body {
 
 .header{
    height: auto;
-}
-#logo{
-  float: none;
-  width: 100%;
 }
 
 .cardleft{
@@ -210,13 +217,23 @@ max-width: 100%;
 #selfie{
 max-width: 100%;
 }
-#Plogos, #WDL {
- float: none;
- max-width:100%;
+
+#mainlogo{
+max-width: 100%;
 }
 
 #JP{
-font-size: 11vw;
+text-align: center;
+display: block;
+}
+
+#spanblock1, #spanblock2{
+text-align: center;
+width: 100%;
+}
+.headerlogos{
+display: block;
+max-width: 100%;
 }
 }
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
