@@ -10,6 +10,10 @@ body {
   color: white;
 }
 
+img{
+max-width: 100%;
+}
+
 /* Header/Blog Title */
 .header {
   background: rgb(15,15,15);
@@ -21,10 +25,17 @@ body {
 }
 .headerlogos{
 float:right;
-margin-right: 25px; 
-margin-top:20px; 
+margin-right: 25px;
+margin-top: 20px; 
 width: 40px;
- height:40px;
+height:40px;
+}
+.cardlogos{
+margin-right: 25px;
+margin-top: 20px; 
+width: 40px;
+height:40px;
+display: none;
 }
 
 #mainlogo{
@@ -158,7 +169,7 @@ width: 40px;
   margin-top: 20px;
 }
 
-@media screen and (min-width: 800px){
+@media screen and (min-width: 890px){
 #mainlogo{
 margin-right: 12px; width: auto; height: 95px;
 }
@@ -166,7 +177,7 @@ margin-right: 12px; width: auto; height: 95px;
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 890px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
     padding: 0;
@@ -224,13 +235,12 @@ display: block;
 text-align: center;
 display: block;
 }
-
 .headerlogos{
-max-width: 100%;
-float: none;
+display: none;
 }
-#webdesign{
-max-width: 100%;
+.cardlogos{
+display: inline;
+margin: auto;
 }
 }
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
