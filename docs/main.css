@@ -1,13 +1,11 @@
 *{
-	margin:0;
-	padding:0;
-	box-sizing: border-box;
+margin:0;
+padding:0;
+box-sizing: border-box;
 }
 
 body {
   font-family: Arial;
-  /*padding: 10px;*/
-  /*background: #f1f1f1;*/
   background: rgb(20,20,20);
   color: white;
 }
@@ -50,12 +48,8 @@ width: 40px;
 
 /* Style the topnav links */
 .topnav a {
-  /*float: left;*/
-  /*display: block;*/
- /* display: inline;*/
   color: #f2f2f2;
   text-align: center;
-  /*padding: 14px 16px;*/
   text-decoration: none;
 }
 
@@ -70,16 +64,13 @@ width: 40px;
 }
 
 .topnav li:hover {
-	/*border-bottom: 2px solid rgb(0,255,000);*/
 	border-bottom: 2px solid orange;
-	background: black/*rgb(50,50,50)*/;
+	background: black;
 }
 
 
 /* Change color on hover*/
 .topnav a:hover {
-  /*background-color: #ddd;*/
-  /*color: rgb(0,255,000);*/
   color: orange;
   
 }
@@ -95,7 +86,6 @@ width: 40px;
 .rightcolumn {
   float: left;
   width: 25%;
- /* background-color: #f1f1f1;*/
   background: rgb(20,20,20);
   padding-left: 20px;
 }
@@ -110,7 +100,6 @@ width: 40px;
 
 /* Add a card effect for articles */
 .card {
-  /*background-color: white;*/
   background: rgb(15,15,15);
   padding: 20px;
   margin-top: 20px;
@@ -233,10 +222,14 @@ display: block;
 
 #spanblock1, #spanblock2{
 text-align: center;
-width: 100%;
-}
-.headerlogos{
 display: block;
+}
+
+.headerlogos{
+max-width: 100%;
+float: none;
+}
+#webdesign{
 max-width: 100%;
 }
 }
