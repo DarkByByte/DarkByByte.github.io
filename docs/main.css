@@ -1,12 +1,12 @@
 * {
-margin:0;
-padding:0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
   font-family: Arial;
-  background: rgb(20,20,20);
+  background: rgb(20, 20, 20);
   color: white;
 }
 
@@ -16,42 +16,46 @@ img {
 
 /* Header/Blog Title */
 .header {
-  background: rgb(15,15,15);
+  background: rgb(15, 15, 15);
   color: orange;
   height: 95px;
 }
+
 #JP {
- font-size: 250%;
+  font-size: 250%;
 }
+
 .headerlogos {
-  float:right;
+  float: right;
   margin-right: 25px;
-  margin-top: 20px; 
+  margin-top: 20px;
   width: 40px;
-  height:40px;
+  height: 40px;
 }
+
 .cardlogos {
   margin-right: 25px;
-  margin-top: 20px; 
+  margin-top: 20px;
   width: 40px;
-  height:40px;
+  height: 40px;
   display: none;
 }
 
 #mainlogo {
-	float: left;
+  float: left;
 }
 
 .header h1 {
   font-size: 50px;
 }
+
 .header p {
   font-size: 12px;
 }
 
 /* Style the top navigation bar */
 .topnav {
-  background: rgb(20,20,20);
+  background: rgb(20, 20, 20);
   text-align: center;
   border-top: 3px solid black;
   border-bottom: 2px solid black;
@@ -64,31 +68,31 @@ img {
   text-decoration: none;
 }
 
-.topnav ul { 
+.topnav ul {
   padding: 5px;
   list-style-type: none;
 }
 
 .topnav li {
   display: inline;
-    padding: 6px;   
+  padding: 6px;
 }
 
 .topnav li:hover {
-	border-bottom: 2px solid orange;
-	background: black;
+  border-bottom: 2px solid orange;
+  background: black;
 }
 
 
 /* Change color on hover*/
 .topnav a:hover {
   color: orange;
-  
+
 }
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 75%;
 }
@@ -97,28 +101,28 @@ img {
 .rightcolumn {
   float: left;
   width: 25%;
-  background: rgb(20,20,20);
+  background: rgb(20, 20, 20);
   padding-left: 20px;
 }
 
 /* Fake image */
 .fakeimg {
   /*background-color: #aaa;*/
-  background: rgb(40,40,40);
+  background: rgb(40, 40, 40);
   width: 100%;
   padding: 20px;
 }
 
 /* Add a card effect for articles */
 .card {
-  background: rgb(15,15,15);
+  background: rgb(15, 15, 15);
   padding: 20px;
   margin-top: 20px;
   margin-right: 5px;
 }
 
-.cardleft{
-  background: rgb(15,15,15);
+.cardleft {
+  background: rgb(15, 15, 15);
   padding: 20px;
   margin-top: 20px;
   margin-left: 120px;
@@ -126,8 +130,9 @@ img {
   border-radius: 10px;
   border: 3px double orange;
 }
-.cardprojects{
-  background: rgb(15,15,15);
+
+.cardprojects {
+  background: rgb(15, 15, 15);
   padding: 20px;
   margin-top: 20px;
   margin-left: 250px;
@@ -135,18 +140,26 @@ img {
   border-radius: 10px;
   border: 3px double orange;
 }
-.cardprojects h2, .cardprojects h5, .cardprojects h3{
-	color: orange;
+
+.cardprojects h2,
+.cardprojects h5,
+.cardprojects h3 {
+  color: orange;
 }
 
-.cardleft h2, .cardleft h5{
-	color: orange;
-	text-align: center;
+.cardleft h2,
+.cardleft h5 {
+  color: orange;
+  text-align: center;
 }
-.card h2, h5, h3 {
-	color: orange;
-	
+
+.card h2,
+h5,
+h3 {
+  color: orange;
+
 }
+
 .card {
   border-radius: 1px;
   border: 3px double orange;
@@ -165,88 +178,98 @@ img {
   text-align: center;
   width: 100%;
   /*background: #ddd;*/
-  background: rgb(15,15,15);
+  background: rgb(15, 15, 15);
   margin-top: 20px;
 }
 
-@media screen and (min-width: 890px){
-#mainlogo{
-margin-right: 12px; width: auto; height: 95px;
-}
+@media screen and (min-width: 890px) {
+  #mainlogo {
+    margin-right: 12px;
+    width: auto;
+    height: 95px;
+  }
 
 }
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 890px) {
-  .leftcolumn, .rightcolumn {   
+
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
 
-.header{
-   height: auto;
-}
+  .header {
+    height: auto;
+  }
 
-.cardleft{
-  background: rgb(15,15,15);
-  padding: 20px;
-  margin-top: 20px;
-  margin-left: 1px;
-  margin-right: 1px;
-  border-radius: 10px;
-  border: 3px double orange;
-}
-.cardprojects{
-  background: rgb(15,15,15);
-  padding: 20px;
-  margin-top: 20px;
-  margin-left: 1px;
-  margin-right: 1px;
-  border-radius: 10px;
-  border: 3px double orange;
-}
-.topnav li {
+  .cardleft {
+    background: rgb(15, 15, 15);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 10px;
+    border: 3px double orange;
+  }
+
+  .cardprojects {
+    background: rgb(15, 15, 15);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 1px;
+    margin-right: 1px;
+    border-radius: 10px;
+    border: 3px double orange;
+  }
+
+  .topnav li {
     display: block;
-    padding: 6px;   
+    padding: 6px;
+  }
+
+  .cardleft img {
+    max-width: 100%;
+  }
+
+  .cardprojects img {
+    max-width: 100%;
+  }
+
+  #selfie {
+    max-width: 100%;
+  }
+
+  #mainlogo {
+    max-width: 100%;
+  }
+
+  #JP {
+    text-align: center;
+    display: block;
+  }
+
+  #spanblock1,
+  #spanblock2 {
+    text-align: center;
+    display: block;
+  }
+
+  .headerlogos {
+    display: none;
+  }
+
+  .cardlogos {
+    display: inline;
+    margin: auto;
+  }
 }
 
-.cardleft img{
-max-width: 100%;
-}
-
-.cardprojects img{
-max-width: 100%;
-}
-
-#selfie{
-max-width: 100%;
-}
-
-#mainlogo{
-max-width: 100%;
-}
-
-#JP{
-text-align: center;
-display: block;
-}
-
-#spanblock1, #spanblock2{
-text-align: center;
-display: block;
-}
-.headerlogos {
-display: none;
-}
-.cardlogos {
-display: inline;
-margin: auto;
-}
-}
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .topnav a {
-	float: none;
-	width: 100%;
-}
+    float: none;
+    width: 100%;
+  }
 }
