@@ -1,3 +1,5 @@
+/*Universal Selector that removes any default margin and padding stylings
+ from the browser for block level elements*/
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +16,7 @@ img {
   max-width: 100%;
 }
 
-/* Header/Blog Title */
+/* Stylings for the Header/Blog Title */
 .header {
   background: rgb(15, 15, 15);
   color: orange;
@@ -29,8 +31,8 @@ img {
   float: right;
   margin-right: 25px;
   margin-top: 20px;
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
 }
 
 .cardlogos {
@@ -43,6 +45,7 @@ img {
 
 #mainlogo {
   float: left;
+  width: 200px;
 }
 
 .header h1 {
@@ -53,7 +56,7 @@ img {
   font-size: 12px;
 }
 
-/* Style the top navigation bar */
+/* Stylyiings for the top navigation bar */
 .topnav {
   background: rgb(20, 20, 20);
   text-align: center;
@@ -177,7 +180,6 @@ h3 {
   padding: 20px;
   text-align: center;
   width: 100%;
-  /*background: #ddd;*/
   background: rgb(15, 15, 15);
   margin-top: 20px;
 }
@@ -191,7 +193,8 @@ h3 {
 
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other 
+instead of next to each other */
 @media screen and (max-width: 890px) {
 
   .leftcolumn,
@@ -250,8 +253,7 @@ h3 {
     display: block;
   }
 
-  #spanblock1,
-  #spanblock2 {
+  #headerinfo {
     text-align: center;
     display: block;
   }
@@ -266,7 +268,8 @@ h3 {
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each 
+other instead of next to each other */
 @media screen and (max-width: 400px) {
   .topnav a {
     float: none;
